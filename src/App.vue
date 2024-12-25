@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PriceClock
+  />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PriceClock from "@/components/PriceClock.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PriceClock,
   }
 }
 </script>
